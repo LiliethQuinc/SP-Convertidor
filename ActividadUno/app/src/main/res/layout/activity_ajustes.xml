@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <include layout="@layout/header_layout" />
+
+    <Spinner
+        android:id="@+id/sidioma"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="100dp"/>
+
+    <Spinner
+        android:id="@+id/sposicion"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="200dp"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tema Azul"
+        android:id="@+id/temaazul"
+        android:layout_marginTop="300dp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tema Amarillo"
+        android:id="@+id/temaamarillo"
+        android:layout_marginTop="380dp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tema Morado"
+        android:id="@+id/temamorado"
+        android:layout_marginTop="430dp"
+        />
+
+</RelativeLayout>
